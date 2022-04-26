@@ -1,2 +1,2 @@
-# c_studies
+# Estudos em C
 Algoritmos e exercícios em C
