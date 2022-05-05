@@ -5,7 +5,8 @@ void verifica_aposentadoria(int idade);
 
 int main(void) {
   int valor_idade;
-
+  
+  valor_idade = ler_idade();
   verifica_aposentadoria(valor_idade);
 
   return 0;
