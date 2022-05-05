@@ -1,20 +1,32 @@
 #include <stdio.h>
 
-int main()
-{
+int ler_idade(void);
+void verifica_aposentadoria(int idade);
+
+int main(void) {
+  int valor_idade;
+
+  verifica_aposentadoria(valor_idade);
+
+  return 0;
+}
+
+int ler_idade(void) {
   int idade;
 
-  printf("Digite sua idade:");
+  printf("Digite sua idade: ");
   scanf("%d", &idade);
 
-  if(idade >= 18)
+  return idade;
+}
+
+void verifica_aposentadoria(int idade) {
+  if(idade > 65)
   {
-    printf("Você é maior de idade!\n");
+    printf(" Você pode se aposentar!\n");
   }
   else 
   {
-    printf("Você é menor de idade!\n");
+    printf("Você não pode aposentar!\n");
   }
-  
-  return 0;
 }
