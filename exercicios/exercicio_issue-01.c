@@ -22,7 +22,7 @@ int ler_idade(void) {
 }
 
 void verifica_aposentadoria(int idade) {
-  if(idade > 65)
+  if(idade >= 65)
   {
     printf(" Você pode se aposentar!\n");
   }
