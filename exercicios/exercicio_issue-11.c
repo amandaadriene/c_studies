@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
   }
   for(int i = 1; i < argc; i++)
   {
-    printf("Decrescente: %d \n", valores[i]);
+   printf("Decrescente: %d \n", valores[i]);
   }
    printf("\n");
    return 0;
